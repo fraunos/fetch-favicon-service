@@ -1,0 +1,26 @@
+{
+  "name": "fetch-favicon-service",
+  "version": "1.0.0",
+  "description": "simple service to fetch favicons using koa and fetch-favicon node packages, similar to grabicon website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraunos/fetch-favicon-service.git"
+  },
+  "author": "fraunos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fraunos/fetch-favicon-service/issues"
+  },
+  "homepage": "https://github.com/fraunos/fetch-favicon-service#readme",
+  "dependencies": {
+    "fetch-favicon": "0.0.2",
+    "koa": "^2.3.0",
+    "koa-router": "^7.2.1",
+    "request": "^2.81.0"
+  }
+}
